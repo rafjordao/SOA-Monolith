@@ -39,5 +39,5 @@ Início da Iteração | Término da iteração
 
 ### Lições aprendidas
 * JUnit é duca!
-* 
-* 
+* Comunicação entre as aplicaçes via API!
+* Pipeline é complexo!
