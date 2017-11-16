@@ -1,4 +1,10 @@
 /target/
 /.idea/
+/Cliente/.idea/
+/Pedido/.idea/
+/Cliente/target/
+/Pedido/target/
+/Cliente/cliente.iml/
+/Pedido/pedido.iml/
 /output.log/
 /SOA-Monolith.iml
