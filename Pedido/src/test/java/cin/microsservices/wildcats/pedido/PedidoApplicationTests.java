@@ -12,6 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import cin.microsservices.wildcats.pedido.domain.pedido.ItemPedido;
 
+import java.io.IOException;
 import java.util.List;
 
 import static net.bytebuddy.matcher.ElementMatchers.is;
@@ -39,9 +40,10 @@ public class PedidoApplicationTests {
 	/**
 	 * Teste simples na criação de um ItemPedido
 	 * 12/11/2017
+	 * @throws IOException 
 	 */
 	@Test
-	public void testCriacaoDePedido() {
+	public void testCriacaoDePedido() throws IOException {
 		pedido_rest.adicionaItemPedido(item1DTO);
 		List<Pedido> lista_pedidos;
 		lista_pedidos = pedido_rest.buscarPedidosPorCliente(Long.valueOf(1));
